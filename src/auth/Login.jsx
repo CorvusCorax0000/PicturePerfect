@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -27,9 +28,9 @@ const Login = () => {
         <div className='mt-[2rem] space-y-2'>
             <h1 className='font-inter text-xl'>Chưa có tài khoản?</h1>
             <div>
-                <a href='/#' className='font-inter text-xl  bg-[#5f5f5f] text-white w-64 h-14 inline-flex items-center justify-center'>
+                <Link to="/register" className='font-inter text-xl  bg-[#5f5f5f] text-white w-64 h-14 inline-flex items-center justify-center'>
                     Đăng ký
-                </a>
+                </Link>
             </div>
         </div>
       </div>
